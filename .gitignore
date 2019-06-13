@@ -9,6 +9,7 @@
 .idea/dictionaries
 
 
+
 # Wazne dane prywatne, ktore nie powinny sie znalezc na gicie:
 
 .idea/**/dataSources/
@@ -26,6 +27,7 @@
 .idea/**/uiDesigner.xml
 
 
+
 # Gradle - builder czasami wykorzystywany:
 
 .idea/**/gradle.xml
@@ -33,12 +35,16 @@
 .idea/**/libraries
 
 
+
 ## Stary format projektu:
-*
-.iws
-# 
-IntelliJ
+
+*.iws
+
+
+# IntelliJ
+
 /out/
+
 
 
 # Moduly
@@ -46,13 +52,20 @@ IntelliJ
 .idea_modules/
 
 
-#JIRA plugin
+# JIRA plugin
+
 atlassian-ide-plugin.xml
 
+
+
 # Clojure plugin
+
 .idea/replstate.xml
 
+
+
 # Crashlytics plugin - analizator bledow
+
 com_crashlytics_export_strings.xml
 
 crashlytics.properties
